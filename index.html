@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="title" content="Simple publish"/>
+    <meta name="description" content="Simple publish"/>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no, shrink-to-fit=no">
+    <meta name="theme-color" content="#fb8f83">
+    <meta name="copyright" content="Taejae Han"/>
+    <meta name="robots" content="index,follow">
+    <title>Simple publish</title>
+
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="main-container">
+        <section class="title">
+            <h1>
+                Create a new repository
+            </h1>
+            <div class="note">
+                A repository contains all project files, including the revision history. Already have a project repository elsewhere? 
+                <a href="#">
+                    Import a repository.
+                </a>
+                <hr >
+            </div>
+        </section>
+
+        <section class="repository float-clear">
+            <div class="float-left">
+                <label class="child">Owner</label>
+                <summary class="child">
+                    <img class="thumb" alt="taejaehan" src="https://avatars0.githubusercontent.com/u/6984732?s=40&amp;v=4" width="20" height="20">
+                    <span class="name">taejaehan</span>
+                </summary>
+            </div>
+            <div class="float-left">
+                <span class="child mid">/</span>
+            </div>
+            <div class="float-left">
+                <label class="child" >Repository name</label>
+                <input class="child" type="input" >
+                <div class="hint" >bear-robotics is available.</div>
+            </div>
+        </section>
+        <section class="description">
+            <p>Great repository names are short and memorable. Need inspiration? How about <strong>bear-robotics</strong>?</p>
+            <label>Description <span>(optional)</span></label>
+            <input type="text" >
+        </section>
+
+        <section class="type">
+            <hr >
+            <div class="float-clear">
+                <input class="float-left" type="radio" checked="checked" />
+                <svg class="float-left public-icon" height="32" viewBox="0 0 24 24" version="1.1" width="32" >
+                    <path fill-rule="evenodd" d="M3 2.75A2.75 2.75 0 015.75 0h14.5a.75.75 0 01.75.75v20.5a.75.75 0 01-.75.75h-6a.75.75 0 010-1.5h5.25v-4H6A1.5 1.5 0 004.5 18v.75c0 .716.43 1.334 1.05 1.605a.75.75 0 01-.6 1.374A3.25 3.25 0 013 18.75v-16zM19.5 1.5V15H6c-.546 0-1.059.146-1.5.401V2.75c0-.69.56-1.25 1.25-1.25H19.5z"></path>
+                    <path d="M7 18.25a.25.25 0 01.25-.25h5a.25.25 0 01.25.25v5.01a.25.25 0 01-.397.201l-2.206-1.604a.25.25 0 00-.294 0L7.397 23.46a.25.25 0 01-.397-.2v-5.01z"></path>
+                </svg>
+                <div class="float-left">
+                    <label >
+                        Public
+                    </label>
+                    <span class="note" >
+                        Anyone on the internet can see this repository. You choose who can commit.
+                    </span>
+                </div>
+            </div>
+
+            <div class="float-clear">
+                <input class="float-left" type="radio">
+                <svg class="float-left private-icon" height="32" viewBox="0 0 24 24" version="1.1" width="32" >
+                    <path fill-rule="evenodd" d="M6 9V7.25C6 3.845 8.503 1 12 1s6 2.845 6 6.25V9h.5a2.5 2.5 0 012.5 2.5v8a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 013 19.5v-8A2.5 2.5 0 015.5 9H6zm1.5-1.75C7.5 4.58 9.422 2.5 12 2.5c2.578 0 4.5 2.08 4.5 4.75V9h-9V7.25zm-3 4.25a1 1 0 011-1h13a1 1 0 011 1v8a1 1 0 01-1 1h-13a1 1 0 01-1-1v-8z"></path>
+                </svg>
+                <div class="float-left">
+                    <label >
+                        Private
+                    </label>
+                    <span class="note">
+                        You choose who can see and commit to this repository.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="option">
+            <hr >
+            <h3 >Initialize this repository with:</h3>
+            <p class="option-note" >Skip this step if you’re importing an existing repository.</p>
+            <div class="checkbox-container">
+                <div class="checkbox-wrap">
+                    <input type="checkbox">
+                    <label>
+                        Add a README file
+                    </label> 
+                    <span class="note">
+                        This is where you can write a long description for your project.
+                        <a href="#">Learn more.</a>
+                    </span>
+                </div>
+                <div class="checkbox-wrap">
+                    <input type="checkbox">
+                    <label >Add .gitignore</label> 
+                    <span class="note" >
+                        Choose which files not to track from a list of templates.
+                        <a href="#">Learn more.</a>
+                    </span>
+                </div>
+                <div class="checkbox-wrap">
+                    <input type="checkbox" >
+                    <label >Choose a license</label> 
+                    <span class="note">
+                        A license tells others what they can and can't do with your code.
+                        <a href="#">Learn more.</a>
+                    </span>
+                </div>
+                    <hr >
+                    <button type="submit" disabled="">Create repository</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
